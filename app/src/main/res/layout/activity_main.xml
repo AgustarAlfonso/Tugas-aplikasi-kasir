@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List produk toko kayla"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asus ROG Strix scar 16 - Rp70.000.000" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Jumlah" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apple macbook air - Rp20.000.000" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Jumlah" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hp elitebook 840 G9 - Rp25.800.000" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Jumlah" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acer Aspire 3 Spin 14 - Rp8.000.000" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Jumlah" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Membership (Diskon 5%)" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Non Membership"
+            android:checked="true"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayar item"
+        />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+
+
+</LinearLayout>
